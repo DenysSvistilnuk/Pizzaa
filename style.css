@@ -1,0 +1,77 @@
+body{
+    background-color: blanchedalmond;
+    margin: 0px;
+    font-size: 22px;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+/* Стилі до шапки сайту */
+.header{
+    background-color: rgb(221, 103, 82);
+    padding: 10px 0px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo{
+    width: 120px;
+}
+.header-list{
+    display: flex;
+    gap: 50px;
+}
+.header-link{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+.header-link:hover{
+    color: blanchedalmond;
+}
+/* Головна секція */
+.hero{
+    padding: 50px 0px;
+}
+.hero-container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.hero-image{
+    width: 550px;
+}
+.hero-title{
+    font-size: 48px;
+    color: rgb(113, 27, 12);
+}
+/* Стилі до 2 секції */
+.dough{
+    padding: 50px 0px;
+    background-color: rgb(255, 167, 123);
+}
+.dough-container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.dough-image{
+    width: 550px;
+}
+.dough-title{
+    color: rgb(113, 27, 12);
+}
+.dough-list{
+    list-style: disc;
+    margin-left: 50px;
+}
