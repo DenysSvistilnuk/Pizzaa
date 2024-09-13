@@ -24,7 +24,7 @@ a{
     display: flex;
     justify-content: space-between;
 }
-.header-logo{
+.header-image{
     width: 120px;
 }
 .header-list{
@@ -74,4 +74,26 @@ a{
 .dough-list{
     list-style: disc;
     margin-left: 50px;
+}
+/* Стилі до 3 секції */
+.filling{
+    padding: 50px 0px;
+    background-color: blanchedalmond;
+}
+.filling-image{
+    width: 550px;
+}
+.filling-title{
+    color: rgb(113, 27, 12);
+}
+.filling-list{
+    list-style-type: disc;
+}
+.filling-container{
+    display: flex;
+    flex-direction: row;
+}
+/* Підвал сайту */
+.footer{
+    background-color: rgb(255, 167, 123);
 }
