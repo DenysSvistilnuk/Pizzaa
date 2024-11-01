@@ -22,10 +22,11 @@ a{
 }
 .header-container{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .header-image{
-    width: 60px;
+    width: 120px;
 }
 .header-list{
     display: flex;
@@ -88,24 +89,28 @@ a{
 }
 .filling-list{
     list-style-type: disc;
+    margin-left: 50px;
 }
 .filling-container{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 15px;
 }
 /* Підвал сайту */
 .footer{
     background-color: rgb(255, 167, 123);
-    padding-left: 750px;
+    padding: 15px 0px;
 }
 .footer-image{
-    width: 40px;
+    width: 55px;
 }
 .footer-container{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 .footer-text{
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     font-weight: 900;
 }
