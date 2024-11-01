@@ -25,7 +25,7 @@ a{
     justify-content: space-between;
 }
 .header-image{
-    width: 120px;
+    width: 60px;
 }
 .header-list{
     display: flex;
@@ -96,4 +96,16 @@ a{
 /* Підвал сайту */
 .footer{
     background-color: rgb(255, 167, 123);
+    padding-left: 750px;
+}
+.footer-image{
+    width: 40px;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+}
+.footer-text{
+    color: antiquewhite;
+    font-weight: 900;
 }
